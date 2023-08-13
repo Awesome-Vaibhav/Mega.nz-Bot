@@ -4,6 +4,7 @@ import os
 
 
 class Config(object):
+    name = "ALL-IN-ONE-PRO-BOT"
     APP_ID = int(os.environ.get("APP_ID", 268451200685))
     API_HASH = os.environ.get("API_HASH", "5a2684512006853f2e48aca9652d83ea")
     BOT_TOKEN = os.environ.get("BOT_TOKEN", "5457463964:AAFQgKp5KgOVO_PYbbcekMT9R-PhsQVevVI")
